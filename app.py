@@ -56,13 +56,13 @@ def prediction():
 
     # Phân loại BMI
     if bmi_value < 18.5:
-        bmi_category = "Thiếu cân"
-    elif 18.5 <= bmi_value < 24.9:
-        bmi_category = "Cân nặng bình thường"
-    elif 25 <= bmi_value < 29.9:
-        bmi_category = "Thừa cân"
+        bmi_category = "Thiếu cân (Khô lâu đại tướng 💀)"
+    elif 18.5 <= bmi_value < 24.99:
+        bmi_category = "Cân nặng bình thường (Good 👍)"
+    elif 25 <= bmi_value < 29.99:
+        bmi_category = "Thừa cân (Fat man 🐽)"
     else:
-        bmi_category = "Béo phì"
+        bmi_category = "Béo phì (Hốc trưởng 🍴)"
 
     # Truyền lại các giá trị đã nhập và kết quả dự đoán vào template
     return render_template('index.html', bmi=bmi_value, category=bmi_category, weight=weight, height=height, method=method)
