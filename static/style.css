@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #2bc0e4, #eaecc6);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #085078;
+  font-size: 40px;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adds shadow to header */
+}
+
+h1 {
+  font-size: 38px;
+  color: #163f96;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+form {
+  width: 45%;
+  text-align: left;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: rgb(255, 162, 0);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: #3c812c;
+}
+
+.bmi-info {
+  width: 45%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.bmi-info h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #085078;
+}
+
+.bmi-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bmi-info ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.prediction {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #333;
+}
